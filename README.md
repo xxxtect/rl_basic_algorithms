@@ -60,15 +60,6 @@ python main.py --demo dyna     # Dyna-Q 规划次数对比
 - **Q-learning**: Off-policy，使用 max 操作学习最优策略
 - **Dyna-Q**: 结合模型学习的 Q-learning 变体
 
-## On-policy vs Off-policy
-
-| 特性 | On-policy (Sarsa) | Off-policy (Q-learning) |
-|------|-------------------|------------------------|
-| 目标策略 | 与行为策略相同 | 最优贪婪策略 |
-| 更新方式 | 使用实际动作 A' | 使用 max 操作 |
-| 特点 | 更保守安全 | 更激进最优 |
-| 适用场景 | 需要考虑探索风险 | 学习最优策略 |
-
 ## 作者
 
 Created for learning reinforcement learning fundamentals.
