@@ -1,0 +1,8 @@
+# 强化学习基础算法 - 依赖要求
+# Reinforcement Learning Basic Algorithms - Requirements
+
+# 核心依赖
+numpy>=1.20.0
+
+# 可选依赖（用于扩展功能）
+# matplotlib>=3.4.0  # 如果需要绘制学习曲线
